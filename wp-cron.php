@@ -22,7 +22,7 @@ if ( ! headers_sent() ) {
 	header( 'Expires: Wed, 11 Jan 1984 05:00:00 GMT' );
 	header( 'Cache-Control: no-cache, must-revalidate, max-age=0' );
 }
-
+//test
 // Don't run cron until the request finishes, if possible.
 if ( PHP_VERSION_ID >= 70016 && function_exists( 'fastcgi_finish_request' ) ) {
 	fastcgi_finish_request();
