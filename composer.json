@@ -1,0 +1,15 @@
+{
+    "name": "pc/teddy-bear-shop",
+    "autoload": {
+        "psr-4": {
+            "Pc\\TeddyBearShop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Khanh Bang",
+            "email": "phamkhanhbang116159@gmail.com"
+        }
+    ],
+    "require": {}
+}
