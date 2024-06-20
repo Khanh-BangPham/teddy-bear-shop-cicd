@@ -1,5 +1,6 @@
 {
     "name": "pc/teddy-bear-shop",
+    "description": "A short description of your package",
     "autoload": {
         "psr-4": {
             "Pc\\TeddyBearShop\\": "src/"
@@ -11,5 +12,8 @@
             "email": "phamkhanhbang116159@gmail.com"
         }
     ],
-    "require": {}
+    "require": { 
+       
+    },
+    "license": "MIT"
 }
